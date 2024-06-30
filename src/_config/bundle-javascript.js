@@ -20,7 +20,7 @@ module.exports = (eleventyConfig, pluginOptions = {}) => {
 
       return async () => {
         let { outputFiles } = await esbuild.build({
-          target: "es2020",
+          target: "es2022",
           entryPoints: [path],
           minify: true,
           bundle: true,
