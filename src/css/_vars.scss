@@ -8,11 +8,23 @@
 
   --color-light: white;
   --color-dark: black;
-  --color-teal: #044156;
-  --color-blue: #4f81bd;
-  --color-green: #65b891;
-  --color-yellow: #f6f183;
-  --color-brown: #b48c87;
+  --color-teal: hsl(195, 91%, 18%);
+  --color-blue: hsl(213, 45%, 53%);
+  --color-green: hsl(152, 37%, 56%);
+  --color-yellow: hsl(57, 86%, 74%);
+  --color-brown: hsl(7, 23%, 62%);
+
+  // quick vim macro job, check and adjust as needed
+  --color-teal-light: hsl(195, 91%, 23%);
+  --color-teal-dark: hsl(195, 91%, 13%);
+  --color-blue-light: hsl(213, 45%, 58%);
+  --color-blue-dark: hsl(213, 45%, 48%);
+  --color-green-light: hsl(152, 37%, 61%);
+  --color-green-dark: hsl(152, 37%, 51%);
+  --color-yellow-light: hsl(57, 86%, 79%);
+  --color-yellow-dark: hsl(57, 86%, 69%);
+  --color-brown-light: hsl(7, 23%, 67%);
+  --color-brown-dark: hsl(7, 23%, 57%);
 
   --color-bg: white;
   --color-fg: black;

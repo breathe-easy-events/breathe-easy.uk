@@ -7,13 +7,14 @@
     <link data-asset-hash href="/css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="cont">
-      <main class="inner">
-        <div class="hero">
-          <h1>{{ title }}</h1>
-        </div>
-        {{ content | safe }}
-      </main>
-    </div>
+    <main id="main">
+      {% section %}
+      <div class="hero">
+        <h1>{{ title }}</h1>
+      </div>
+      {{ content | safe }} {% endsection %}
+    </main>
+    <footer>{% include "signup.html" %}</footer>
+    <script data-asset-hash src="/js/index.js"></script>
   </body>
 </html>

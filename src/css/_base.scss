@@ -1,0 +1,60 @@
+*:focus-visible {
+  outline: 10px solid var(--color-yellow);
+  outline-offset: 0.25rem;
+  border-radius: 0.125rem;
+}
+
+body {
+  --color-fg: var(--color-teal);
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+  overflow-wrap: anywhere;
+}
+
+button {
+  font-size: var(--step-1);
+  color: var(--color-light);
+  background-color: var(--color-teal);
+  padding: var(--space-xs);
+  border: 3px solid var(--color-teal);
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+button:focus,
+button:hover {
+  background-color: var(--color-teal-light);
+  border-color: var(--color-teal-light);
+}
+
+footer {
+  padding-block: var(--space-l);
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-s);
+  max-width: 100%;
+}
+
+input {
+  font-size: var(--step-1);
+  padding: var(--space-xs);
+  color: var(--color-fg);
+  padding: var(--space-xs);
+  border: 3px solid var(--color-teal);
+  border-radius: 5px;
+  font-weight: 500;
+  background-color: var(--color-bg);
+}
+
+label {
+  font-size: var(--step-0);
+}
+
+p {
+  font-size: var(--step-1);
+}

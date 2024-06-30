@@ -1,0 +1,14 @@
+.section-outer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: var(--space-m-l);
+}
+.section-inner {
+  width: 100%;
+  max-width: 75ch;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-m);
+}

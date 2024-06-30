@@ -2,4 +2,7 @@
 @use "vars";
 @use "typography";
 @use "utils";
-@use "temp";
+@use "base";
+// component-like things
+@use "hero";
+@use "section";
