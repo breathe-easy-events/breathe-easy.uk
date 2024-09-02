@@ -2,6 +2,7 @@ import eleventySass from "@11tyrocks/eleventy-plugin-sass-lightningcss";
 import { jsxToString } from "jsx-async-runtime";
 import { bundleJavascript } from "./src/_config/bundle-javascript";
 import { hashAssets } from "./src/_config/hash-assets";
+import { collections } from "./src/_config/collections.ts";
 import * as url from "url";
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 
@@ -11,6 +12,7 @@ export default function (eleventyConfig: any) {
 
   // static files
   eleventyConfig.addPassthroughCopy("src/static");
+  eleventyConfig.addPassthroughCopy("src/admin");
 
   // process css
   eleventyConfig.addPlugin(eleventySass);
@@ -36,7 +38,11 @@ export default function (eleventyConfig: any) {
     ts: true,
   });
 
+  // break cache on static assets like CSS
   eleventyConfig.addPlugin(hashAssets, { dirname: __dirname });
+
+  // add custom collections
+  eleventyConfig.addPlugin(collections);
 
   return {
     dir: {

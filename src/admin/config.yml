@@ -1,0 +1,52 @@
+backend:
+  name: github
+  repo: breathe-easy-events/breathe-easy.uk
+  branch: admin-sandbox # set to main before merging in feature
+media_folder: "src/static/img"
+public_folder: "/static/img"
+publish_mode: editorial_workflow
+collections:
+  - label: "Pages"
+    name: "pages"
+    folder: "src/pages"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Menu item", name: "menu", widget: "boolean", default: false }
+      - {
+          label: "Discription",
+          name: "discription",
+          widget: "text",
+          hint: "Metadata for previews on social media and search engines, aim for between 50 - 150 characters",
+          pattern: ["^.{25,200}$", "Must be between 25 and 200 characters"],
+          required: false,
+        }
+      - {
+          label: "Social image",
+          name: "socialImage",
+          hint: "Image for previews on social media and search engines, should be 1200x630px, will be ignored if no alt text is provided",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Social image alt text",
+          name: "socialImageAlt",
+          widget: "text",
+          hint: "Alt text describing preview image for screen readers",
+          pattern: ["^.{25,}$", "Must be atleast 25 characters"],
+          required: false,
+        }
+      # - {
+      #     label: "Emoji",
+      #     name: "emoji",
+      #     hint: "Emoji to by used in the favicon on browser tabs",
+      #     widget: "string",
+      #     pattern:
+      #       [
+      #         "\\p{Emoji_Presentation}{1,1}",
+      #         "Can only be a single character, must be an emoji",
+      #       ],
+      #     required: false,
+      #   }
+      - { label: "Body", name: "body", widget: "markdown" }
