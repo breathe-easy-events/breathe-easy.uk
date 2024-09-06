@@ -15,15 +15,15 @@
   --color-brown: hsl(7, 23%, 62%);
 
   // quick vim macro job, check and adjust as needed
-  --color-teal-light: hsl(195, 91%, 23%);
+  --color-teal-light: hsl(195, 91%, 93%);
   --color-teal-dark: hsl(195, 91%, 13%);
-  --color-blue-light: hsl(213, 45%, 58%);
+  --color-blue-light: hsl(213, 45%, 68%);
   --color-blue-dark: hsl(213, 45%, 48%);
-  --color-green-light: hsl(152, 37%, 61%);
+  --color-green-light: hsl(152, 37%, 71%);
   --color-green-dark: hsl(152, 37%, 51%);
-  --color-yellow-light: hsl(57, 86%, 79%);
+  --color-yellow-light: hsl(57, 86%, 89%);
   --color-yellow-dark: hsl(57, 86%, 69%);
-  --color-brown-light: hsl(7, 23%, 67%);
+  --color-brown-light: hsl(7, 23%, 77%);
   --color-brown-dark: hsl(7, 23%, 57%);
 
   --color-bg: white;
@@ -82,6 +82,7 @@
   /* Custom pairs */
   --space-s-3xl: clamp(1.125rem, -1.0924rem + 11.087vw, 7.5rem);
   --space-m-xl: clamp(1.6875rem, 0.9701rem + 3.587vw, 3.75rem);
+  --space-s-0: clamp(0.000001rem, 1.5163rem + -1.9565vw, 1.125rem);
 }
 
 /* breakpoints - should be used with `@media (min-width: $VAL)` for mobile first */
