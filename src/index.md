@@ -1,5 +1,5 @@
 ---
-layout: MainLayout.11ty.tsx
+layout: IndexLayout.11ty.tsx
 title: Breathe Easy Sheffield
 ---
 

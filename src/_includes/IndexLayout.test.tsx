@@ -1,10 +1,10 @@
 import { expect, test } from "vitest";
 import { jsxToString } from "jsx-async-runtime";
-import { MainLayout } from "./MainLayout.11ty";
+import { IndexLayout } from "./IndexLayout.11ty";
 import { screen } from "@testing-library/dom";
 import { ViewProps } from "../../eleventy";
 
-test("render MainLayout", async () => {
+test("render IndexLayout", async () => {
   const viewProps: ViewProps = {
     content: "<p>This is the <em>BODY</em></p>",
     title: "My site",
@@ -12,7 +12,7 @@ test("render MainLayout", async () => {
     baseUrl: "",
   };
 
-  const result = MainLayout(viewProps);
+  const result = IndexLayout(viewProps);
   document.body.innerHTML = await jsxToString(result);
   expect(screen.getAllByText(viewProps.title)).to.exist;
   expect(screen.getByText("BODY")).to.exist;

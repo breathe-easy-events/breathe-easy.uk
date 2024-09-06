@@ -3,7 +3,7 @@ import { Hero } from "../_components/Hero";
 import { Head } from "../_components/Head";
 import { Section } from "../_components/Section";
 
-export const MainLayout = (data: ViewProps): JSX.Element => {
+export const IndexLayout = (data: ViewProps): JSX.Element => {
   const {
     baseUrl,
     content,
@@ -38,4 +38,4 @@ export const MainLayout = (data: ViewProps): JSX.Element => {
   );
 };
 
-export const render = MainLayout;
+export const render = IndexLayout;
