@@ -22,3 +22,8 @@
         - `safe-guarding`
         
 - [ ] footer details, content, org reg, policy links, etc
+
+- [ ] add events page
+  - [ ] should have ical feed to subscribe to
+  - [ ] should have file to add to calendar for each event (looks to be the same as feed with one event)
+  - [ ] should it pull from a feed eg. google calendar or make events from CMS and produce the feed?
