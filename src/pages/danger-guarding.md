@@ -1,5 +1,4 @@
 ---
-layout: MainLayout.11ty.tsx
 title: Danger Guarding Policy
 menu: true
 ---

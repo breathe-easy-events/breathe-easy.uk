@@ -1,13 +1,17 @@
 # new pages todo
 
 - [ ] CMS working
+    - test access with J make sure not any rando can edit with a github account
+    - add index page, limit to one item
     - sort J and C permissions
     - emoji picker???
         - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Unicode_character_class_escape
         - https://decapcms.org/docs/custom-widgets/
 - [ ] new page template and set to default in pages data json
-- [ ] sort nav
-- [ ] images working
+    - [ ] sort nav
+    - [ ] check all content types producible by markdown in template 
+    - [ ] images working
+    - [ ] table styling see [nord example](https://nordhealth.design/components/table/?theme=nord-dark-high-contrast&example=scroll+snapping)
 - [ ] firm up site structure
     - `pages/`
         - `contact` do we want to do html form?? needs own layout or just link
