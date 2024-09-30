@@ -1,0 +1,20 @@
+header {
+  // background-color: var(--color-teal);
+  // color: white;
+  padding: var(--space-m);
+}
+
+nav {
+  // background-color: red;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  gap: var(--space-m);
+  // justify-content: space-between;
+}
