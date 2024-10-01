@@ -21,7 +21,6 @@ export const PageLayout = (data: ViewProps): JSX.Element => {
 		entry.url,
 	]);
 
-	console.log(data.collections["menu"]);
 	return (
 		<html lang="en">
 			{Head({
@@ -34,7 +33,7 @@ export const PageLayout = (data: ViewProps): JSX.Element => {
 				url: page.url,
 			})}
 			<body>
-				{Header({ links })}
+				{Header({ links, currentPage: data.page.url })}
 				<main id="main">
 					<Section>
 						<h1>{title}</h1>

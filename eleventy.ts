@@ -4,19 +4,31 @@
  */
 
 type CollectionItem = {
-	template: any;
-	rawInput: string;
-	groupNumber: number;
-	data: any[];
-	page: any[];
-	inputPath: string;
-	fileSlug: string;
-	filePathStem: string;
-	date: string;
-	outputPath: string;
-	url: string;
-	templateContent: any[];
 	content: any[];
+	data: any[];
+	date: string;
+	filePathStem: string;
+	fileSlug: string;
+	groupNumber: number;
+	inputPath: string;
+	outputPath: string;
+	page: any[];
+	rawInput: string;
+	template: any;
+	templateContent: any[];
+	url: string;
+};
+
+type Page = {
+	date: Date;
+	filePathStem: string;
+	fileSlug: string;
+	inputPath: string;
+	outputFileExtension: string;
+	outputPath: string;
+	rawInput: string;
+	templateSyntax: string;
+	url: string;
 };
 
 export type ViewProps = {
@@ -24,7 +36,7 @@ export type ViewProps = {
 	content: string;
 	description?: string; // " for opengraph metadata"
 	emoji?: string; // " for insertion to favicon"
-	page: any;
+	page: Page;
 	socialImage?: string; // " for opengraph metadata (external link or path to file)"
 	socialImageAlt?: string; // " alt text describing social preview image, if you do not include this then it will fallback to the default image / alt"
 	title: string;

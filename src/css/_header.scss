@@ -1,20 +1,38 @@
-header {
-  // background-color: var(--color-teal);
-  // color: white;
+.header {
   padding: var(--space-m);
 }
 
-nav {
-  // background-color: red;
-}
-
-header div {
+.header nav {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-header nav ul {
+.header nav ul {
   display: flex;
-  gap: var(--space-m);
-  // justify-content: space-between;
+  margin: 0;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+// .nav__home {
+//   justify-self: flex-start;
+// }
+
+.header a {
+  text-decoration: none;
+  font-weight: 500;
+  transition: 200;
+  padding-inline: var(--space-s);
+  padding-block: var(--space-3xs);
+  border-radius: var(--space-3xs);
+}
+
+.header a:hover {
+  background-color: var(--color-yellow);
+}
+
+.header a[aria-current] {
+  // indicate visually which page?
 }

@@ -33,7 +33,7 @@ export const IndexLayout = (data: ViewProps): JSX.Element => {
 				url: page.url,
 			})}
 			<body>
-				{Header({ links })}
+				{Header({ links, currentPage: data.page.url })}
 				<main id="main">
 					<Section>
 						<Hero title={title}></Hero>

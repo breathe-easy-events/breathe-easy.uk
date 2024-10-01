@@ -2,25 +2,26 @@ type Link = [string, string];
 
 export type HeaderProps = {
 	links: Link[];
+	currentPage: string;
 };
 
-export const Header = ({ links }: HeaderProps): JSX.Element => {
-	console.log("🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢");
-	console.log(links);
+export const Header = ({ links, currentPage }: HeaderProps): JSX.Element => {
 	return (
 		<header class="header">
-			<div>
-				<a href="/">Home</a>
-				<nav>
-					<ul role="list">
-						{links.map(([title, url]) => (
-							<li>
-								<a href={url}>{title}</a>
-							</li>
-						))}
-					</ul>
-				</nav>
-			</div>
+			<nav>
+				<a aria-current={currentPage === "/" ? "page" : null} href="/">
+					Home
+				</a>
+				<ul role="list">
+					{links.map(([title, url]) => (
+						<li>
+							<a aria-current={currentPage === url ? "page" : null} href={url}>
+								{title}
+							</a>
+						</li>
+					))}
+				</ul>
+			</nav>
 		</header>
 	);
 };
