@@ -1,15 +1,17 @@
 .header {
   margin-block-end: var(--space-l);
+  --color-bg: var(--color-green);
 }
 
 .header *:focus-visible {
   outline: 10px solid var(--color-teal);
   outline-offset: 0.25rem;
   border-radius: 0.125rem;
+  z-index: 9999;
 }
 
 .header nav {
-  background-color: var(--color-yellow);
+  background-color: var(--color-bg);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -39,7 +41,7 @@
 }
 
 .header a:hover {
-  color: var(--color-yellow);
+  color: var(--color-bg);
   background-color: var(--color-teal);
 }
 
@@ -48,6 +50,6 @@
 }
 
 .header .curve {
-  fill: var(--color-yellow);
+  fill: var(--color-bg);
   // transform: scale(-1, 1); //this is silly
 }
