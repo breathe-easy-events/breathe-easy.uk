@@ -32,6 +32,9 @@ export const PageLayout = (data: ViewProps): JSX.Element => {
         url: page.url,
       })}
       <body>
+        <a href="#main" class="screen-reader-only">
+          skip to content
+        </a>
         {Header({ links, currentPage: data.page.url })}
         <main id="main">
           <Section>
