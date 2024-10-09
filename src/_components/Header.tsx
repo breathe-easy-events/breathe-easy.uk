@@ -1,5 +1,3 @@
-import { CurveR } from "./curve";
-
 type Link = [string, string];
 
 export type HeaderProps = {
@@ -8,11 +6,7 @@ export type HeaderProps = {
   bottomEl: boolean;
 };
 
-export const Header = ({
-  links,
-  currentPage,
-  bottomEl = true,
-}: HeaderProps): JSX.Element => {
+export const Header = ({ links, currentPage }: HeaderProps): JSX.Element => {
   return (
     <header class="header">
       <nav>
@@ -29,7 +23,6 @@ export const Header = ({
           ))}
         </ul>
       </nav>
-      {bottomEl ? <CurveR></CurveR> : <></>}
     </header>
   );
 };

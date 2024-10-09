@@ -1,5 +1,5 @@
 .hero {
-  --color-bg: var(--color-green);
+  // --color-bg: var(--color-green);
 }
 
 .hero h1 {
@@ -7,8 +7,4 @@
   font-size: var(--step-6-8);
   max-width: 10ch;
   margin-block-end: var(--space-s);
-}
-
-.hero .curve {
-  fill: var(--color-bg);
 }

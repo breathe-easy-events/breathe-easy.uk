@@ -1,4 +1,3 @@
-import { CurveL } from "../_components/curve";
 import { Head } from "../_components/Head";
 import { Header } from "../_components/Header";
 import { Hero } from "../_components/Hero";
@@ -34,15 +33,12 @@ export const IndexLayout = (data: ViewProps): JSX.Element => {
         url: page.url,
       })}
       <body>
-        <div class="top-container">
-          {Header({ links, currentPage: data.page.url, bottomEl: false })}
+        {Header({ links, currentPage: data.page.url, bottomEl: false })}
+        <main id="main">
           <Section>
             <Hero title={title}></Hero>
+            {content}
           </Section>
-        </div>
-        <CurveL></CurveL>
-        <main id="main">
-          <Section>{content}</Section>
         </main>
       </body>
       <script data-asset-hash src="/js/index.js"></script>

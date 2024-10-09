@@ -1,22 +1,9 @@
-.header {
-  margin-block-end: var(--space-l);
-  --color-bg: var(--color-green);
-}
-
-.header *:focus-visible {
-  outline: 10px solid var(--color-teal);
-  outline-offset: 0.25rem;
-  border-radius: 0.125rem;
-  z-index: 9999;
-}
-
 .header nav {
   background-color: var(--color-bg);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: var(--space-m);
-  padding-bottom: 0;
 }
 
 .header nav ul {
@@ -27,14 +14,10 @@
   align-items: center;
 }
 
-// .nav__home {
-//   justify-self: flex-start;
-// }
-
 .header a {
   text-decoration: none;
   font-weight: 500;
-  transition: 200;
+  transition: all 0.2s ease-out;
   padding-inline: var(--space-s);
   padding-block: var(--space-3xs);
   border-radius: var(--space-3xs);
@@ -42,14 +25,9 @@
 
 .header a:hover {
   color: var(--color-bg);
-  background-color: var(--color-teal);
+  background-color: var(--color-fg);
 }
 
 .header a[aria-current] {
   // indicate visually which page?
-}
-
-.header .curve {
-  fill: var(--color-bg);
-  // transform: scale(-1, 1); //this is silly
 }

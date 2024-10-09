@@ -1,5 +1,4 @@
 import { ViewProps } from "../../eleventy";
-import { Hero } from "../_components/Hero";
 import { Head } from "../_components/Head";
 import { Header } from "../_components/Header";
 import { Section } from "../_components/Section";
