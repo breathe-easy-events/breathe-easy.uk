@@ -12,7 +12,13 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Menu item", name: "menu", widget: "boolean", default: false }
+      - {
+          label: "Menu item",
+          name: "menu",
+          widget: "boolean",
+          default: false,
+          hint: "Should this page be linked to from the navigation at the top of every page?",
+        }
       - {
           label: "Discription",
           name: "discription",
