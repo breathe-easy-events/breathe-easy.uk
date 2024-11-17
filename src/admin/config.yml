@@ -18,7 +18,12 @@ collections:
     folder: "src/pages"
     create: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Title",
+          name: "title",
+          widget: "string",
+          hint: "This will be converted to a slug eg. 'About Us' to 'about-us' which will be used in the URL",
+        }
       - {
           label: "Menu item",
           name: "menu",
