@@ -10,6 +10,14 @@ test("render  PageLayout", async () => {
     title: "My site",
     page: { url: "/" },
     baseUrl: "",
+    collections: {
+      menu: [
+        {
+          data: { title: "About" },
+          url: "/about",
+        },
+      ],
+    },
   };
 
   const result = PageLayout(viewProps);

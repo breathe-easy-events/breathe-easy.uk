@@ -10,6 +10,14 @@ test("render IndexLayout", async () => {
     title: "My site",
     page: { url: "/" },
     baseUrl: "",
+    collections: {
+      menu: [
+        {
+          data: { title: "About" },
+          url: "/about",
+        },
+      ],
+    },
   };
 
   const result = IndexLayout(viewProps);
