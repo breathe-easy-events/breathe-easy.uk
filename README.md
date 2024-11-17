@@ -84,7 +84,7 @@ This will then be accessed as `globalData` in templates under `data.baseURL`
 
 ## Content
 
-Currently the only content is `./src/index.md` but Eleventy's documentation on [templates](https://www.11ty.dev/docs/templates/) and [data](https://www.11ty.dev/docs/data/) give many interesting examples of how to source and organize content. If you'd like a quick intro to get the feel for this check out this [Build an 11ty Site in 3 Minutes video](https://www.youtube.com/watch?v=BKdQEXqfFA0).
+New pages can be added and edited through the Decap CMS available at [breathe-easy.uk/admin](https://breathe-easy.uk/admin). You can mess about in the [demo environment](https://demo.decapcms.org/) without effecting the site.
 
 ### pages
 
@@ -92,6 +92,7 @@ Pages accept the following front-matter
 
 ```yaml
 layout: "which template to use"
+menu: (true | false) show page title in navigation, defaults to false
 title: "for pages h1 and opengraph metadata"
 description: "[optional] for opengraph metadata"
 emoji: "[optional] for insertion to favicon"
