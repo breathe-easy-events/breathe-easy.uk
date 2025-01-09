@@ -2,7 +2,6 @@
 layout: MainLayout.11ty.tsx
 title: Breathe Easy Sheffield
 ---
-
 💃 Do you enjoy going out and socialising, but feel cautious since the
 covid-19 pandemic? Are you avoiding crowded and indoor venues? You are
 not alone!
@@ -17,4 +16,4 @@ reduce transmission risk. Launching autumn 2024.
 
 👉 Want to find out more? [Register your interest](http://eepurl.com/iQfyS2)
 
-*This site is under construction as of June 2024*
+*This site is under construction as of June 2024!*
