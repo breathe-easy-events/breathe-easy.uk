@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: breathe-easy-events/breathe-easy.uk
-  branch: admin-sandbox # set to main before merging in feature
+  branch: main
 media_folder: "src/static/img"
 public_folder: "/static/img"
 publish_mode: editorial_workflow
