@@ -6,7 +6,7 @@ title: Breathe Easy Sheffield
 covid-19 pandemic? Are you avoiding crowded and indoor venues? You are
 not alone!
 
-😷 Many people are still worried about the risks of attending
+😷 Many people are still conscious of the risks of attending
 in-person events, especially people who are clinically vulnerable to
 covid-19 and other infectious diseases.
 
