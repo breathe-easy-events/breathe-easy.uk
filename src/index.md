@@ -14,6 +14,6 @@ covid-19 and other infectious diseases.
 cultural events, designed with enhanced safety measures in place to
 reduce transmission risk. 
 
-👉 Want to find out more? [Register your interest](http://eepurl.com/iQfyS2)
+👉 Want to find out more? [Join our mailing list](http://eepurl.com/iQfyS2)
 
-*This site is under construction as of January 2025*
+*Last updated: January 2025*
