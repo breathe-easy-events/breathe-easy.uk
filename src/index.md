@@ -16,4 +16,4 @@ reduce transmission risk.
 
 👉 Want to find out more? [Register your interest](http://eepurl.com/iQfyS2)
 
-*This site is under construction as of June 2024*
+*This site is under construction as of January 2025*
