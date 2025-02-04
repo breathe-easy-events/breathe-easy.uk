@@ -9,7 +9,6 @@ export const IndexLayout = (data: ViewProps): JSX.Element => {
     baseUrl,
     content,
     description,
-    emoji,
     page,
     socialImage,
     socialImageAlt,
@@ -26,7 +25,6 @@ export const IndexLayout = (data: ViewProps): JSX.Element => {
       {Head({
         baseUrl,
         description,
-        emoji,
         socialImage,
         socialImageAlt,
         title,

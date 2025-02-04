@@ -41,7 +41,6 @@ export type ViewProps = {
   baseUrl?: string;
   content?: string;
   description?: string; // " for opengraph metadata"
-  emoji?: string; // " for insertion to favicon"
   page?: Page;
   socialImage?: string; // " for opengraph metadata (external link or path to file)"
   socialImageAlt?: string; // " alt text describing social preview image, if you do not include this then it will fallback to the default image / alt"

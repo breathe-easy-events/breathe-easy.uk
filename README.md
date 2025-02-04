@@ -95,7 +95,6 @@ layout: "which template to use"
 menu: (true | false) show page title in navigation, defaults to false
 title: "for pages h1 and opengraph metadata"
 description: "[optional] for opengraph metadata"
-emoji: "[optional] for insertion to favicon"
 socialImage: "[optional] for opengraph metadata (external link or path to file)"
 socialImageAlt: "[optional] alt text describing social preview image, if you do not include this then it will fallback to the default image / alt"
 ```

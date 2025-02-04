@@ -1,7 +1,6 @@
 export type HeadProps = {
   baseUrl?: string;
   description?: string; // "[optional] for opengraph metadata"
-  emoji?: string; // "[optional] for insertion to favicon"
   socialImage?: string; // "[optional] for opengraph metadata (external link or path to file)"
   socialImageAlt?: string; // "[optional] alt text describing social preview image, if you do not include this then it will fallback to the default image / alt"
   title: string;
@@ -10,7 +9,6 @@ export type HeadProps = {
 
 const defaultProps = {
   baseUrl: "",
-  emoji: "🌞",
   title: "Breathe Easy Sheffield",
   description:
     "An eclectic series of Covid safer social & cultural events, designed with enhanced safety measures in place to reduce transmission risk. Launching autumn 2024.",
@@ -34,7 +32,6 @@ const absoluteUrl = (base, url) => {
 export const Head = ({
   baseUrl = defaultProps.baseUrl,
   description = defaultProps.description,
-  emoji = defaultProps.emoji,
   socialImage = defaultProps.socialImage,
   socialImageAlt = defaultProps.socialImageAlt,
   title,
@@ -56,10 +53,7 @@ export const Head = ({
       <meta charset="UTF-8" />
       <meta property="og:type" content="website" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link
-        rel="icon"
-        href={`data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>${emoji}</text></svg>`}
-      />
+      <link rel="icon" type="image/png" href="/static/img/favicon.png" />
       <title>{title_}</title>
       <meta name="title" content={title_} />
       <meta property="og:title" content={title_} />

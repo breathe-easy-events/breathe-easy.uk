@@ -55,16 +55,4 @@ collections:
           pattern: ["^.{25,}$", "Must be atleast 25 characters"],
           required: false,
         }
-      # - {
-      #     label: "Emoji",
-      #     name: "emoji",
-      #     hint: "Emoji to by used in the favicon on browser tabs",
-      #     widget: "string",
-      #     pattern:
-      #       [
-      #         "\\p{Emoji_Presentation}{1,1}",
-      #         "Can only be a single character, must be an emoji",
-      #       ],
-      #     required: false,
-      #   }
       - { label: "Body", name: "body", widget: "markdown" }
