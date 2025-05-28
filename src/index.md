@@ -7,15 +7,11 @@ covid-19 pandemic? Are you avoiding crowded and indoor venues? You are
 not alone!
 
 Many people are still conscious of the risks of attending
-in-person events, especially people who are clinically vulnerable to
-covid-19 and other infectious diseases.
-
-Breathe Easy Sheffield is a new eclectic series of social and
-cultural events, designed with enhanced safety measures in place to
-reduce transmission risk. 
-
+in-person events, especially people who are clinically vulnerable to covid-19 and other infectious diseases.
 
 Breathe Easy Sheffield and Breathe Easy London are both small community groups hosting regular COVID-safer socials and other one-off events. We’re sharing this website to make safer events easier to find, and hopefully inspire you to create your own Breathe Easy group!
+
+## About Breathe Easy
 
 Breathe Easy originated in 2024 with Sheffield organisers Chloe and Jade. Their events have included COVID-safer life drawing, craft socials and cinema visits, as well as the UK’s first COVID-safer gig. They are also developing a local lending library of clean air equipment. For information about their events, visit [sheffield.breathe-easy.uk](https://sheffield.breathe-easy.uk/)
 
