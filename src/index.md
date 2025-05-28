@@ -21,8 +21,6 @@ Breathe Easy London is organised by Greta Mauch, Anni, Georgia, and three other 
 
 ![A group of people wearing masks sitting round a large table with craft materials on it](/static/img/ldn-social.jpg)
 
-*Breathe Easy London and Breathe Easy Sheffield operate independently and have separate funding, organisers, operations, and practices. We share a belief in harm reduction in event planning. We also share this website and name to make it easier for people  searching for COVID-safer events, to inspire others to create their own, and to build solidarity among COVID-conscious people in the UK*
+*Breathe Easy London and Breathe Easy Sheffield operate independently and have separate funding, organisers, operations, and practices. We share a belief in harm reduction in event planning. We also share this website and name to make it easier for people  searching for COVID-safer events, to inspire others to create their own, and to build solidarity among COVID-conscious people in the UK.*
 
 Looking for other COVID-safer events in the UK? Check out [safeinside.co.uk](http://safeinside.co.uk) or The [Decolonizing Bruja’s newsletter](https://maskrequiredevents.substack.com/) of COVID-safer events from across the globe!
-
-*Last updated: May 2025*
