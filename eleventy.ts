@@ -43,11 +43,11 @@ const absoluteUrl = (base: string, url: string): string | URL => {
 
 export const headDefaultProps = {
   baseUrl: "",
-  title: "Breathe Easy Sheffield",
+  title: "Breathe Easy",
   description:
-    "An eclectic series of Covid safer social & cultural events, designed with enhanced safety measures in place to reduce transmission risk. Launching autumn 2024.",
+    "Covid-safer social and cultural events in the UK, designed with enhanced safety measures in place to reduce transmission risk",
   socialImage: "/static/img/ogimage-default.png",
-  socialImageAlt: "Breath Easy's logo",
+  socialImageAlt: "Breath Easy",
 };
 
 export const HeadSchema = z
